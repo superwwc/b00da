@@ -16,7 +16,7 @@
 		 $min=0;
  
 
-//version 1.0 generar un array apartir de la Entrada
+//generar un array apartir de la Entrada
 	for ($i = 2; $i < $numTrans; $i++) {
 		$pares = explode(",", $transacciones[$i]);
 		for ($j = 0; $j < 5; $j++) {
@@ -41,7 +41,7 @@
 	for ($x=0;$x<$n;$x++) 
 	{// copiar la columna de size para conservar el valor
 		$matriz[5][$x]=$matriz[3][$x] ; 
-    }
+    }//esto me servira cuando 
 	  
 
 //INICIO DE CALCULOS
