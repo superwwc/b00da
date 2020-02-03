@@ -41,7 +41,7 @@
 	for ($x=0;$x<$n;$x++) 
 	{// copiar la columna de size para conservar el valor
 		$matriz[5][$x]=$matriz[3][$x] ; 
-    }//esto me servira cuando 
+    }//esto me servira cuando haga el remanente
 	  
 
 //INICIO DE CALCULOS
