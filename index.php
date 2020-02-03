@@ -4,11 +4,11 @@
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
 	<meta name="author" content="Wendell Warren">
-		<link rel="stylesheet" href="css/bootstrap.min.css" />
-		<script src="js/jquery-3.4.1.slim.min.js" ></script>
-		<script src="js/popper.min.js" ></script>
-		<script src="js/bootstrap.min.js" ></script>
-		<script src="js/jquery-3.4.1.min.js" ></script>
+		<link rel="stylesheet" href="vista/css/bootstrap.min.css" />
+		<script src="vista/js/jquery-3.4.1.slim.min.js" ></script>
+		<script src="vista/js/popper.min.js" ></script>
+		<script src="vista/js/bootstrap.min.js" ></script>
+		<script src="vista/js/jquery-3.4.1.min.js" ></script>
 <style>	p
 		{
 			background-color: white;
@@ -20,7 +20,7 @@
 		}
 </style>
 <script>
-	function b00daJQuery() {
+	function b00daAjax() {
 		var exchange=document.getElementById("exchange").value;
 	
 			$.ajax({
@@ -38,7 +38,7 @@
 		
 		
     <body  >
-	<img src="img/buda.png" style="text-align:left">
+	<img src="vista/img/buda.png" style="text-align:left">
 	<br />
 	<h1>Ingresa aqu&iacute; el c&oacute;digo de &oacute;rdenes.</h1>
 <form method="post" id="formulario">
@@ -50,7 +50,7 @@
 	</div>
 
 	<p>
-		<input type="button" id="btn-ingresar" class="btn btn-primary" value="Ingresar" onclick="b00daJQuery()" />
+		<input type="button" id="btn-ingresar" class="btn btn-primary" value="Ingresar" onclick="b00daAjax()" />
 	</p>
 </form>
 
