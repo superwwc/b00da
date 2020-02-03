@@ -11,8 +11,5 @@
 		calcular($ind,$ind-1,$matriz,$final,$min);
 	}
 //OUTPUT: la impresion de la salida
-	echo "{<br>&nbsp;transactions:<br>&nbsp;&nbsp;[<br>";
-		repite($final,sizeof($final),0);//imprimo las transacciones realizadas
-		remanente($matriz,$n);
-	echo "<br>&nbsp;&nbsp;]<br>}<br>";
+	include('output.php');	
 ?>
